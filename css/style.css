@@ -1,0 +1,806 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(180, 176, 176);
+}
+
+.fa-lock {
+    color: #fff;
+
+}
+
+header {
+    width: 20%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px 0 10px 0;
+    margin-top: 100px;
+    border-radius: 25px;
+    background: #222;
+    transition: 1s;
+}
+
+.header_display {
+    border: 1px solid black;
+    height: 60vh;
+    margin: 0 20px;
+    padding: 0px 0;
+    background: rgba(0, 0, 0, 0.397);
+    position: relative;
+
+
+}
+
+.header_button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #111;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #222;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    -moz-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+}
+
+.header_button1 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #111;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #222;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    -moz-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+}
+
+.header_button_pasword {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #111;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #222;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    -moz-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+}
+
+.header_signal {
+    width: 60px;
+    height: 5px;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    -moz-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+
+}
+
+.header_block_top {
+    display: flex;
+    margin: 20px auto !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_camera {
+    width: 10px;
+    border-radius: 50px;
+    height: 10px;
+    border: 1px solid black;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    -moz-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.85) inset;
+
+}
+
+.header_display_work_time {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.header_display_work_time_open {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.726);
+    color: #fff;
+    z-index: 1000;
+    padding: 5px 0;
+
+}
+
+.hours1,
+.minutes1 {
+    font-size: 13px;
+    color: #fff;
+    padding: 0 3px;
+}
+
+.hours,
+.minutes {
+    font-size: 35px;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.nuqta_box {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.nuqta {
+    font-size: 13px;
+    font-weight: 900;
+
+}
+
+/* pasword */
+
+.password_block {
+    margin-top: 50px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: flex-end;
+    padding: 0 20px;
+}
+
+.password_block_key-1 {
+    color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 24px;
+    background: rgba(85, 85, 85, 0.555);
+    cursor: pointer;
+
+}
+
+.password_block_key-2 {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 24px;
+    background: rgba(85, 85, 85, 0.555);
+    width: 55px;
+    cursor: pointer;
+
+
+}
+
+#wn {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+.ekran {
+    padding: 0 40px;
+    height: 30px;
+    margin: auto;
+
+}
+
+.inputs {
+    background: #111;
+    color: #fff;
+}
+
+.header_bottom_menu {
+    background: rgba(185, 179, 179, 0.527);
+    /* background: blue(3px); */
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.header_bottom_menu_block {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fa-music {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: red;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-phone-alt {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(9, 173, 9);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-safari {
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(8, 189, 202);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-comment {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(9, 173, 9);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+/* messengers */
+.headaer_messenjers {
+    padding: 0 15px;
+}
+
+.headaer_messenjers_block {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 14px;
+    grid-row-gap: 20px;
+
+
+}
+
+.fa-cog {
+    font-size: 20px;
+    color: rgba(22, 22, 22, 0.808);
+    padding: 12px;
+    background: rgb(146, 141, 141);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-broadcast-tower {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(153, 0, 127);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-globe-asia {
+    font-size: 20px;
+    color: rgb(33, 172, 15);
+    padding: 12px;
+    background: rgb(235, 230, 230);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-exclamation-circle {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(226, 186, 9);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-clock {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(5, 5, 5);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-calculator {
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+    padding: 12px;
+    background: rgb(95, 95, 95);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-home {
+    font-size: 20px;
+    color: rgb(226, 186, 9);
+    padding: 12px;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-route {
+    font-size: 20px;
+    color: rgb(4, 163, 4);
+    padding: 12px;
+    background: rgb(95, 95, 95);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-cloud-sun {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(9, 129, 150);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-calendar-week {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-telegram {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(4, 107, 204);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-youtube {
+    font-size: 20px;
+    color: rgb(241, 0, 0);
+    padding: 12px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-address-book {
+    font-size: 20px;
+    color: rgb(34, 33, 33);
+    padding: 12px;
+    background: rgb(150, 145, 145);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-camera {
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+    padding: 12px;
+    background: rgb(255, 252, 252);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    font-size: 20px;
+    color: rgb(255, 22, 22);
+    padding: 12px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-whatsapp {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background: rgb(55, 179, 6);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* .active{
+    transform: translateY(0);
+    transition: 0.5s;
+    opacity: 1;
+} */
+.header_bottom_menu_controller {
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 33, 33, 0.794);
+
+
+
+
+
+
+}
+
+.header_bottom_menu_controller_box {
+    width: 100px;
+    background: rgba(221, 217, 216, 0.651);
+    height: 7px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    opacity: 0.5;
+}
+
+.header_bottom_menu_controller_box:hover {
+    opacity: 1;
+}
+
+/* controller */
+.header_bottom_menu_controller {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 110px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+}
+
+
+.controller_wf_bt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background: #555;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.controller_wf_bt .fa-broadcast-tower {
+    background: rgba(34, 34, 34, 0.397);
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #ddd;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.controller_wf_bt .fa-plane {
+    background: rgba(34, 34, 34, 0.397);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #ddd;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.controller_wf_bt .fa-wifi {
+    background: rgba(34, 34, 34, 0.397);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    background: #ddd;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.controller_wf_bt .fa-bluetooth-b {
+    background: rgba(34, 34, 34, 0.397);
+    padding: 10px;
+
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    background: #ddd;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.controller_music {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background: #555;
+    padding: 45px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.controller_music .fa-play {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+@media(max-width:1259px) {
+    header {
+        width: 27%;
+        margin: auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+
+
+}
+
+@media(max-width:1025px) {
+    header {
+        width: 30%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+
+
+}
+
+@media(max-width:992px) {
+    header {
+        width: 35%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:800px) {
+    header {
+        width: 40%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:720px) {
+    header {
+        width: 43%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:650px) {
+    header {
+        width: 50%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:550px) {
+    header {
+        width: 54%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:500px) {
+    header {
+        width: 63%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:461px) {
+    header {
+        width: 65%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:438px) {
+    header {
+        width: 70%;
+        margin: 50px auto;
+        border: 1 px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100 px;
+        border-radius: 25 px;
+        background: #222;
+        transition: 1s;
+    }
+}
+
+@media(max-width:415px) {
+    header {
+        width: 100%;
+        margin: auto;
+        border: 1px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100px;
+        border-radius: 25px;
+        background: #222;
+        transition: 1s;
+    }
+
+    body {
+        padding: 0 40px;
+    }
+}
+
+@media(max-width:391px) {
+    header {
+        width: 100%;
+        margin: auto;
+        border: 1px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100px;
+        border-radius: 25px;
+        background: #222;
+        transition: 1s;
+    }
+
+    body {
+        padding: 0 40px;
+    }
+}
+
+@media(max-width:376px) {
+    header {
+        width: 100%;
+        margin: auto;
+        border: 1px solid black;
+        padding: 5px 0 10px 0;
+        margin-top: 100px;
+        border-radius: 25px;
+        background: #222;
+        transition: 1s;
+    }
+
+    body {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width:321px) {
+    header {
+        width: 100%;
+
+        border: 1px solid black;
+        padding: 5px 0 10px 0;
+   margin-top: 10px;
+        border-radius: 25px;
+        background: #222;
+        transition: 1s;
+    }
+
+    body {
+        padding: 0 10px;
+    }
+
+    .header_display {
+        border: 1px solid black;
+        height: 72vh;
+        margin: 0 20px;
+        padding: 0px 0;
+        background: rgba(0, 0, 0, 0.397);
+        position: relative;
+    }
+}
+@media(max-width:301px) {
+    header {
+        width: 100%;
+
+        border: 1px solid black;
+        padding: 5px 0 10px 0;
+         margin-top: 10px;
+        border-radius: 25px;
+        background: #222;
+        transition: 1s;
+    }
+
+    body {
+        padding: 0 10px;
+    }
+
+    .header_display {
+        border: 1px solid black;
+        height: 60vh;
+        margin: 0 20px;
+        padding: 0px 0;
+        background: rgba(0, 0, 0, 0.397);
+        position: relative;
+    }
+}
