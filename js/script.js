@@ -224,7 +224,7 @@ $(".header_button1").on("click", function() {
     }
 });
 
-time();
+
 
 
 
